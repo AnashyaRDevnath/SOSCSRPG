@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Engine/Engine.csproj" Id="4643f334-b0cb-4db9-8be9-5b7a03f416e9" />
   <Project Path="WPFUI/WPFUI.csproj" />
 </Solution>
