@@ -5,17 +5,20 @@ using System.Text;
 
 namespace Engine.ViewModels
 {
-     class GameSession
+      public class GameSession
     {
-        Player CurrentPlayer {  get; set; }
+        public Player CurrentPlayer {  get; set; }
 
         //Constructer
         public GameSession()
         {
            CurrentPlayer = new Player();
             CurrentPlayer.Name = "Anashya";
+            CurrentPlayer.Class = "Fighter";
+            CurrentPlayer.HitPoints = 10;
             CurrentPlayer.Gold = 1000000;
-
+            CurrentPlayer.ExperienceLevel = 0;
+            CurrentPlayer.Level = 1;
 
         }
 
