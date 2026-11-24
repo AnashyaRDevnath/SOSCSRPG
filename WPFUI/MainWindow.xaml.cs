@@ -25,5 +25,9 @@ namespace WPFUI
             _gameSession = new GameSession();
             DataContext = _gameSession;
         }
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            _gameSession.CurrentPlayer.ExperienceLevel = _gameSession.CurrentPlayer.ExperienceLevel + 10;
+        }
     }
 }
